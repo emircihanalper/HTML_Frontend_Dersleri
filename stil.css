@@ -1,0 +1,15 @@
+h5{
+	color:red;
+	font-family:Verdana;
+	text-align:right;	
+}
+#haber_baslik{
+	text-align:center;
+	color:blue;
+	font-family:Arial;
+}
+.onemli{
+	color:green;
+	font-weight:bold;
+	text-align:justify;
+}
