@@ -1,0 +1,133 @@
+body{
+	background-image:url('../images/bg.png');
+	margin:0px;
+	padding:0px;
+	font-family:Verdana;
+}
+.bar{
+	width:100%;
+	height:36px;
+	background-image:url('../images/bar.jpg');
+	position:fixed;
+	z-index:3;
+}
+.govde{
+	width:980px;
+	height:1250px;
+	background-color:white;
+	border:solid 2px #660033;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:36px;
+	z-index:2;
+}
+.banner{
+	width:960px;
+	height:200px;
+	margin:10px;
+	background-image:url('../images/logo.png');
+}
+.logo{
+	width:292px;
+	height:70px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	float:left;
+	background-image:url('../images/ustlogo.png');
+}
+.menu{
+	width:658px;
+	height:70px;
+	float:left;
+	margin-bottom:10px;
+}
+.menu ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;	
+}
+.menu ul li{
+	float:left;			
+}
+.menu ul li a{
+	display:block;
+	height:70px;
+	width:126px;
+	background-color:#a20000;
+	text-align:center;
+	text-decoration:none;
+	font-size:16px;
+	color:white;
+	line-height:70px;
+	margin-left:5px;
+	transition:all .5s ease-in-out;
+}
+.menu ul li a:hover{
+	font-weight:bold;
+	color:#a20000;
+	background-color:white;
+}
+.k_govde{
+	width:960px;
+	height:650px;
+	margin:0px 10px;
+	clear:both;
+}
+.k_govde h3{
+	color:#a20000;
+	margin:0px 5px;
+	border-bottom:solid 1px #a20000;
+}
+.kitap{
+	width:180px;
+	height:300px;
+	margin:5px;
+	float:left;
+	border:solid 1px #a20000;
+}
+.kitap h4{
+	background-color:#483D8B;
+	color:white;
+	margin-top:0px;
+	margin-bottom:5px;
+	text-align:center;
+	font-size:15px;
+	font-weight:normal;
+}
+.yazar{
+	width:228px;
+	height:580px;
+	margin:5px;
+	float:left;
+	border:solid 1px #a20000;
+	border-radius:10px;
+}
+.yazar img{
+	margin:10px;
+}
+
+.yazar h3{
+	background-color:#a20000;
+	color:white;
+	margin-top:0px;
+	margin-bottom:10px;
+	text-align:center;
+	font-size:16px;
+	font-weight:normal;
+	display:block;
+	height:40px;
+	width:218px;
+	line-height:40px;
+}
+.yazar font{
+	font-family:Verdana;
+	font-size:15px;
+	margin:5px;
+	text-align:leftwards;
+}
+.yazar font p{
+	margin-right:10px;
+	margin-left:10px;
+}
