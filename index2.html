@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP PROJE</title>
+    <!-- Bu internetten, download etmeden bootsrtap kütüphanesini kullanmak için gerekli link
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- yukarıdaki bootsrap kütüphanesini download ettikten sonra gerekli-->
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">Emir Cihan Alper - Kişisel Blog Sitesi</span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>        
+    </nav>
+
+    <div class="container-md bg-warning my-5 p-5 text-white rounded">
+        <!--bg-warning / arka fon resmi
+        m margin y ekseni 5 ise pixel
+        p padding 5 ise pixel-->
+        <h1>MERHABA</h1>
+    </div>
+
+    <div class="container-fluid text-danger">
+        <h4>SELAM</h4>
+        <small>Nasılsın?</small>
+        <small class="text-muted">Bootrsap Kurs</small>
+        <h4 class="display-1">TEKRAR SELAM</h4>
+        <h4 class="display-6">TEKRAR SELAM</h4>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/art10.jpeg" class="d-block w-100" alt="pixel sanat">
+          </div>
+          <div class="carousel-item">
+            <img src="img/art11.jpeg" class="d-block w-100" alt="pixel sanat">
+          </div>
+          <div class="carousel-item">
+            <img src="img/art12.jpeg" class="d-block w-100 " alt="pixel sanat">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<div class="card-group">
+    <div class="card mx-5" style="width: 18rem;">
+        <img src="img/art01.jpeg" class="card-img-top" alt="Pixel Sanat">
+        <div class="card-body">
+          <h5 class="card-title">Pixel Sanat Örneği</h5>
+          <p class="card-text">Bursaı açıklama kısmı. Burada açıklama var</p>
+          <a href="#" class="btn btn-primary">DETAY</a>
+        </div>
+    </div>
+
+    <div class="card mx-5" style="width: 18rem;">
+        <img src="img/art02.jpeg" class="card-img-top" alt="Pixel Sanat">
+        <div class="card-body">
+          <h5 class="card-title">Pixel Sanat Örneği</h5>
+          <p class="card-text">Bursaı açıklama kısmı. Burada açıklama var</p>
+          <a href="#" class="btn btn-primary">DETAY</a>
+        </div>
+    </div>
+
+    <div class="card mx-5" style="width: 18rem;">
+        <img src="img/art03.jpeg" class="card-img-top" alt="Pixel Sanat">
+        <div class="card-body">
+          <h5 class="card-title">Pixel Sanat Örneği</h5>
+          <p class="card-text">Bursaı açıklama kısmı. Burada açıklama var</p>
+          <a href="#" class="btn btn-primary">DETAY</a>
+        </div>
+    </div>
+
+    <div class="card mx-5" style="width: 18rem;">
+        <img src="img/art04.jpeg" class="card-img-top" alt="Pixel Sanat">
+        <div class="card-body">
+          <h5 class="card-title">Pixel Sanat Örneği</h5>
+          <p class="card-text">Bursaı açıklama kısmı. Burada açıklama var</p>
+          <a href="#" class="btn btn-primary">DETAY</a>
+        </div>
+    </div>
+</div>
+<br>
+<p class="text-uppercase">küçük harler ile yazıldı</p> 
+<p class="text-lowercase">BÜYÜK HARFLER İLE YAZILDI</p>
+<p style="width:150px" class="text-truncate">uzun yazıları kısaltıp üç nokta koyuyor</p>
+<p class="text-capitalize">tüm baş harfleri büyük yapıyor</p>
+<p>Sevdiğim Meyveler : <code>elma, çilek..</code></p>
+<p>Yazdır komutu için <kbd>Ctrl+P</kbd> komutu kullanılır</p>
+<p class="text-black-50">Merhaba</p>
+
+<div class="alert alert-info alert-dismissible" role="alert">
+    Detaylı Bilgi için <a href="#" class="alert-link">Tıklayınız!</a>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<a class="btn btn-primary" href="#" role="button">Link</a>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-secondary btn-lg">Large button</button>
+
+<br>
+<img src="img/art09.jpeg" class="rounded img-fluid" alt="pixel sanat">
+<img src="img/art08.jpeg" class="rounded img-thumbnail" alt="pixel sanat">
+<br>
+<img src="img/art05.jpeg" class="rounded float-start" alt="pixel sanat">
+<img src="img/art05.jpeg" class="rounded float-end" alt="pixel sanat">
+<img src="img/art06.jpeg" class="rounded mx-auto d-block" alt="pixel sanat">
+
+<br>
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Accordion Item #1
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Accordion Item #3
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Accordion Item #4
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <br>
+
+  <button type="button" class="btn btn-primary">
+    Mesaj Sayısı <span class="badge text-bg-danger">5</span>
+  </button>
+
+  <br>
+  <div class="table-responsive">
+  <table class="table caption-top">
+    <caption>List of users</caption>
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+    <!--Bu internetten, download etmeden bootsrtap kütüphanesini kullanmak için gerekli link
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- yukarıdaki bootsrap kütüphanesini download ettikten sonra gerekli-->
+
+</body>
+</html>
