@@ -1,0 +1,313 @@
+#govde{
+	width:900px;
+	height:1300px;
+	background-color:lightblue;
+	margin-left:auto;
+	margin-right:auto;
+}
+#logo{
+	width:225px;
+	height:225px;
+	background-color:white;
+	border-radius:8px;
+	margin:5px;
+	float:left;
+	background-image:url('../img/ertev.jpg');
+}
+#banner{
+	width:660px;
+	height:225px;
+	background-color:white;
+	border-radius:8px;
+	float:left;
+	margin-top:5px;
+}
+#banner h2{
+	color:#fdd33f;
+	font-size:40px;
+	text-align:left;
+	font-family:Tahoma;
+	padding-left:100px;
+	padding-top:25px;
+}
+#menu{
+	width:890px;
+	height:40px;
+	background-color:#3366cc;
+	margin-left:5px;
+	margin-right:5px;
+	clear:both; 
+}
+#menu ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+#menu ul li{
+	float:left;		
+}
+#menu ul li a{
+	display:block;
+	height:40px;
+	width:150px;
+	text-align:center;
+	text-decoration:none; 
+	font-family:Verdana;
+	font-size:18px;
+	color:white;
+	line-height:40px;
+	transition:all .5s ease-in-out;
+	border-left-color:#ff6666;
+	border-left-style:solid;
+	border-left-width:5px;
+}
+#menu ul li a:hover{  
+	font-weight:bold;
+	color:#ff6666;
+	border-right-color:#ff6666;
+	border-right-style:solid;
+	border-right-width:5px;
+	border-left-color:white;
+	border-left-style:solid;
+	border-left-width:5px;
+}
+#sayfa{
+	width:890px;
+	height:500px;
+	float:left;
+	background-color:white;
+	margin:5px;
+	border-radius:8px;
+}
+#habersiz{
+	width:890px;
+	height:735px;
+	float:left;
+	background-color:white;
+	margin:5px;
+	border-radius:8px;
+}
+#habersiz hr{
+	border: 4px solid #fdd33f;
+	border-radius:15%;
+	box-shadow:4px 4px 20px orange;
+}
+#haberler{
+	width:890px;
+	height:25px;
+	float:left;
+	background-color:#6d67e4;
+	margin:5px;	
+}
+#haberler h4{
+	color:white;
+	text-align:left;
+	padding-left:20px;
+	margin-top:3px;
+}
+.haber{
+	width:211.25px;
+	height:200px;
+	float:left;
+	margin-left:10px;	
+	background-color:white;
+}
+#sayfa table{
+	width:50%;
+	height:50%;
+	margin-left:220px;
+	margin-top:80px;		
+}
+#sayfa table th{
+	text-align:left;
+	padding-left:3px;
+	background-color:orange;
+	color:yellow;
+	text-align:center;
+}
+#sayfa table td{
+	text-align:left;
+	padding-left:3px;
+	background-color:lightyellow;
+	color:orange;
+}
+#sayfa table caption{
+	font-family:Verdana;
+	color:orange;
+	font-size:25px;	
+}
+.haber h4{
+	display:block;
+	width:100%;
+	height:30px;
+	background-color:yellow;
+	text-align:center;
+	margin-top:0px;
+	padding-top:10px;
+}
+.haber a{
+	text-decoration:none;
+	color:brown;
+}
+#footer{
+	width:890px;
+	height:275px;
+	float:left;	
+	margin:5px;
+	background-color:darkgray;
+}
+#footer h5{
+	text-align:center;
+	color:orange;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#sosyal{
+	width:50px;
+	height:220px;
+	float:left;
+	margin:5px;
+}
+#sosyal i{
+	font-size:25px;
+	color:orange;	
+	opacity:.5;
+	transition:all .3s ease-in-out;
+	display:block;
+	height:20px;
+	width:50px;	
+	text-align:center;
+	line-height:40px;
+}
+#sosyal a{
+	text-decoration:none;	
+}
+#sosyal i:hover{
+	opacity:1;
+	font-size:50px;
+}
+#footer_menu{
+	width:150px;
+	height:150px;
+	float:left;
+	margin:10px;
+}
+#footer_menu ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;	
+}
+#footer_menu ul li{
+	float:left;	
+}
+#footer_menu ul li a{
+	display:block;
+	height:40px; 
+	width:150px;
+	text-align:center;
+	text-decoration:none;
+	font-family:Verdana;
+	font-size:18px;
+	line-height:50px;
+	color:orange;	
+	opacity:.5;
+	transition:all .3s ease-in-out;
+}
+#footer_menu ul li a:hover{  
+	color:orange;
+	font-size:25px;
+	opacity:1;
+}
+#footer_adres{
+	width:320px;
+	height:300px;
+	float:left;
+	margin:5px;
+}
+#footer_adres i{
+	color:orange;
+}
+#footer_adres h3{
+	color:orange;		
+	font-family:Verdana;
+}
+#footer_adres p a{
+	text-decoration:none;
+	color:orange;	
+	opacity:.5;
+	display:block;
+	height:35px; 
+}
+#footer_adres p a:hover{
+	color:orange;	
+	opacity:1;
+}
+#footer_harita {
+	width:300px;
+	height:240px;	
+	float:left;
+	transition:all .3s ease-in-out;
+}
+.galeri{
+	width:200px;
+	height:190px;
+	float:left;
+	margin:7.5px;
+	transition:all .5s ease-out;
+	border-radius:10px;
+	box-shadow:4px 4px 6px black;	
+}
+.galeri img{
+	border-radius:10px;
+	width:200px;
+	height:190px;
+}
+.galeri:hover{
+	transform:scale(1.25);
+	opacity:0.75;
+	cursor:pointer;
+}
+input[type=text]{
+	width:200px;
+	height:40px;
+	border-radius:8px;
+	border:solid 1px orange;
+	padding:10px;
+	color:orange;
+	font-family:verdana;
+	margin-bottom:8px;
+	transition:all 1s ease-in-out;
+}
+input[type=text]:focus{
+	background-color:orange;
+	color:white;
+}
+input[type=date]{
+	width:200px;
+	height:40px;
+	border-radius:8px;
+	border:solid 1px orange;
+	padding:10px;
+	color:orange;
+	font-family:verdana;
+	margin-bottom:8px;
+	transition:all 1s ease-in-out;
+}
+input[type=date]:focus{
+	background-color:orange;
+	color:white;
+}
+.button{
+	background-color:orange;
+	padding:20px 15px;
+	border:none;
+	font-family:verdana;
+	color:white;
+	border-radius:6px;
+	transition:all 0.5s ease-in-out;
+}
+.button:hover{
+	cursor:pointer;
+	color:orange;
+	background-color:white;
+}
